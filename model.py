@@ -457,12 +457,12 @@ class Gate(nn.Module):
 
           
 
-class TESTAM(nn.Module):
+class CSKT(nn.Module):
     """
-    TESTAM model
+    CSKT model
     """
     def __init__(self, device,num_timesteps_input,num_timesteps_output, q_num, c_num,q_matrix, dropout=0.3, in_dim=2, out_dim=12,hidden_size=32, layers=5, prob_mul = False, **args):
-        super(TESTAM, self).__init__()
+        super(CSKT, self).__init__()
         self.dropout = dropout
         self.prob_mul = prob_mul
         self.supports_len = 2
