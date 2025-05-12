@@ -19,10 +19,22 @@ git clone https://github.com/xzr0w0/CSKT.git
     
 ### 2. Prepare the Dataset  
 
-Unzip the dataset archive:
-```bash
-unzip dataset.zip -d ./data
-```
+📚 Public Datasets
+
+This project supports and references the following publicly available educational datasets:
+
+- **ASSISTMENT2009**  
+  [https://sites.google.com/site/assistmentsdata/home/assistment-2009-2010-data](https://sites.google.com/site/assistmentsdata/home/assistment-2009-2010-data)
+
+- **ASSISTMENT2015**  
+  [https://sites.google.com/site/assistmentsdata/home/2015-assistments-skill-builder-data](https://sites.google.com/site/assistmentsdata/home/2015-assistments-skill-builder-data)
+
+- **ASSISTMENT2017**  
+  [https://sites.google.com/view/assistmentsdatamining/dataset](https://sites.google.com/view/assistmentsdatamining/dataset)
+
+- **NIPS34 (Eedi NeurIPS 2020 Education Challenge)**  
+  [https://eedi.com/projects/neurips-education-challenge](https://eedi.com/projects/neurips-education-challenge)
+
 
 ### 3. Train the Model
 Run the training script:
